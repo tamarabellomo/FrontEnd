@@ -1,0 +1,37 @@
+/*etiqueta HTML VA DIRECTAMENTE EL NOMBRE*/
+/*clases va con "." adelante */
+/* ID va con "#" adelante */
+
+
+
+body{
+background-color: rgb(0, 0, 0);
+color: blueviolet;
+}
+
+#redes{
+    text-align: center;
+    margin: auto;
+}
+
+ul li{
+list-style-type: none;
+margin: -3.5%;      /*adaptacion a todas las pantallas*/
+}
+
+.nombreperfil{
+    font-size: 5em;     /*medidas relativas*/
+}
+
+.banner{
+    justify-content:end;         /*mueve la img*/
+    display:flex;
+}
+
+.foto{
+    border-radius: 100%;    /*redondea la img*/
+}
+
+.apellido{
+    color: aliceblue;
+}
