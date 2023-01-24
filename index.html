@@ -19,64 +19,66 @@
     <section id="navbar">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Mi Portfolio</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Diseños</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
+          <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar/" target="_blank "><img class="logoAp" src="assets/img/logointi.png" alt="logo-arg-programa"></a>
+        
+
+            
             <ul class="list-group list-group-horizontal">
                 <li class="list-group-item"><i class="fa-brands fa-linkedin"></i></li>
                 <li class="list-group-item"><i class="fa-brands fa-github"></i></li>
                 <li class="list-group-item"><i class="fa-brands fa-instagram"></i></li>
               </ul>
+           
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#loginModal"><i class="fa-solid fa-lock"></i>
+  </button>
+ 
+<!--primera en minus, resto en mayus//camelCase -->
+
+
           </div>
         </div>
       </nav>
     </section>
-     <!--vamos con las redes sociales-->
-    <section id="redes">
-        <h2> Redes </h2>
-        <div
-        <ul> 
-            <li><a href="https://www.instagram.com/desing.tamara/" target="_blank"> instagram</a></li>
-            <li><a href="https://www.linkedin.com/in/tamara-belomo-b188961b1/" target="_blank"> linkedin</a></li>
-            <li><a href="https://www.facebook.com/profile.php?id=100089053668532" target="_blank"> facebook</a></li>
-            <li><a href="https://github.com/tamarabellomo" target="_blank"> github</a></li>
-        </ul>
-    </div>
-        </section>
-        
-        <section>
+             <section>
+
+
     <!-- seccion sobre mí-->
-    <section id="sobre">
-<h1> Sobre mí</h1>
-
-<div class="banner">
-    <img class="foto" src="assets/img/tamarabellomo.png" alt="mi-imagen" title="Tamara Bellomo">
+    <section id="sobre" class="border">
+        <h2 class="text-center mt-4 pb-3">Sobre mí</h2>
+        <div class="container text-center">
+            <div class="row">
+                 <div class="col -6">
+                     <h1 class="nombreperfil"> Tamara Anahí <span class="apellido">Bellomo</span></h1>
+                 </div>
+                     <h4>diseñador grafico - diseñador web</h4>
+                     <p>
+                         “En cada nuevo puesto de trabajo dar un paso que me conduzca hacia la cima de mi carrera”.
+                     </p>
+                     <div class="col-6">
+                         <div class="banner">
+                             <img class="foto" src="assets/img/tamarabellomo.png" alt="mi-imagen" title="Tamara Bellomo">
+                            </div>
+                        </div>
+                    </div>
 </div>
+</section>
 
-<div
-    <h1 class="nombreperfil"> Tamara Anahí <span class="apellido">Bellomo</span></h1>
-</div>
-    <h4>diseñador grafico - diseñador web</h4>
+<section id="editSobre" class="bg-dark p-4">
+    <div class="container text-center">
+        <div class="row">
+          <div class="col">
+           <button class="btn btn-light">editar imagen</button>
+          </div>
+          <div class="col">
+            <button class="btn btn-light">editar nombre</button>
+          </div>
+          <div class="col">
+            <button class="btn btn-light">editar informacion</button>
+          </div>
+        </div>
+      </div>
 
-
-<div>
-    <p>
-        “En cada nuevo puesto de trabajo dar un paso que me conduzca hacia la cima de mi carrera”.
-    </p>
-</div>
 </section>
 
 <section id="educacion">
@@ -103,12 +105,61 @@
     <hr>
     <section>
    <h3>Ubicacion</h3>
-<iframe src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.97428733949!2d-68.84659568473742!3d-32.92527757813698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0bd878366ac1%3A0x5f462e2a510ead05!2sPlaza%20Godoy%20Cruz!5e0!3m2!1ses-419!2sar!4v1672927007294!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" frameborder="0"></iframe> 
+<iframe src="<iframe src="https: //www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.97428733949!2d-68.84659568473742!3d-32.92527757813698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0bd878366ac1%3A0x5f462e2a510ead05!2sPlaza%20Godoy%20Cruz!5e0!3m2!1ses-419!2sar!4v1672927007294!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" frameborder="0"></iframe> 
 <br>
 
 <label for="">consultas</label>
 <input type="text" placeholder="dejame tu consulta">
 </section>
+
+  <!-- Modal login -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="loginModalLabel">Login</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                
+                <div class="mb-3">
+                    <label for="exampleImputFecha" class="form-label">Fecha</label>
+                    <input type="date" class="form-control" id="exampleImputFecha">
+                  </div>
+                
+                  <div class="mb-3">
+                    <label for="exampleSobreMi" class="form-label">Texto Largo</label>
+                    <textarea class="form-control" id="exampleSobreMi"></textarea>
+                  </div>
+                
+                
+                
+                
+                
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+
 <!-- js por bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 

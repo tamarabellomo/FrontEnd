@@ -23,15 +23,15 @@ margin: -3.5%;      /*adaptacion a todas las pantallas*/
     font-size: 5em;     /*medidas relativas*/
 }
 
-.banner{
-    justify-content:end;         /*mueve la img*/
-    display:flex;
-}
-
-.foto{
-    border-radius: 100%;    /*redondea la img*/
-}
 
 .apellido{
     color: aliceblue;
+}
+
+#sobre {
+    background-color: lawngreen;
+}
+
+.logoAp{
+    filter: invert(1);
 }
