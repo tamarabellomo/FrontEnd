@@ -6,7 +6,7 @@
 
 body{
 background-color: rgb(0, 0, 0);
-color: blueviolet;
+color: rgb(91, 88, 94);
 }
 
 #redes{
@@ -29,9 +29,12 @@ margin: -3.5%;      /*adaptacion a todas las pantallas*/
 }
 
 #sobre {
-    background-color: lawngreen;
+    background-color: rgb(152, 201, 177);
 }
 
 .logoAp{
     filter: invert(1);
 }
+#navbar{
+     background-color: yellow;
+    }
